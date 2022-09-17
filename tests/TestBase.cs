@@ -12,7 +12,7 @@ public abstract class TestBase
 	protected const string BlankWalletAddress = "0xDeAd9215250777b005EcCbF5b2eca5E6638aB33F";
 
 
-    protected readonly NftApiClient _client;
+    protected readonly INftApiClient _client;
 
 	public TestBase()
 	{
